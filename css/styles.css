@@ -155,7 +155,7 @@ body {
   color: var(--action-color);
 }
 
-.logo__name--web {
+.logo__name--blue-web {
   color: var(--action-color);
 }
 
@@ -505,7 +505,7 @@ body {
   padding: 60px 0;
 }
 
-.footer > .container {
+.footer__container {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -515,23 +515,23 @@ body {
   color: var(--header-color);
 }
 
-.footer-logo {
+.address__logo {
   display: inline-block;
   margin-right: 0;
   margin-bottom: 20px;
 }
 
-.address-list-item {
+.address__item {
   font-style: normal;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
-.address-list-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.adress-connect.link {
+.address__link.link {
   color: rgba(255, 255, 255, 0.6);
 
   transition-property: color;
@@ -539,15 +539,15 @@ body {
   transition-timing-function: var(--anima-function);
 }
 
-.adress-connect.link:active,
-.adress-connect.link:hover,
-.adress-connect.link:focus {
+.address__link.link:active,
+.address__link.link:hover,
+.address__link.link:focus {
   color: var(--action-color);
 }
 
 /* ------------------ FOOTER-CONECT -------------- */
 
-.footer-title {
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -559,16 +559,16 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-list {
+.footer__list {
   display: flex;
   gap: 10px;
 }
 
-.footer-icons {
+.footer__icons {
   fill: var(--header-color);
 }
 
-.footer-social-link {
+.footer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -582,14 +582,14 @@ body {
   transition-timing-function: var(--anima-function);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer__link:hover,
+.footer__link:focus {
   background-color: var(--action-color);
 }
 
 /* ---------------- FOOTER FORM ------------- */
 
-.footer-form-disc {
+.footer-form__disc {
   display: block;
 
   margin-bottom: 20px;
@@ -603,7 +603,7 @@ body {
   color: #ffffff;
 }
 
-.footer-form {
+.footer-form__form {
   display: flex;
   gap: 12px;
 }
@@ -629,7 +629,7 @@ body {
   outline: 1px solid var(--action-color);
 }
 
-.footer-form-button {
+.footer-form__button {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -655,13 +655,13 @@ body {
   transition: background var(--anima-duration) var(--anima-function);
 }
 
-.footer-form-button:hover,
-.footer-form-button:focus {
+.footer-form__button:hover,
+.footer-form__button:focus {
   background-color: #188ce8;
   cursor: pointer;
 }
 
-.footer-form-icon {
+.footer-form__icon {
   fill: var(--header-color);
 }
 
