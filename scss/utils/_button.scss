@@ -19,15 +19,18 @@
   text-align: center;
   letter-spacing: 0.06em;
 
+  font-family: inherit;
+
+
   transition-property: background-color, border;
   transition-duration: var(--anima-duration);
   transition-timing-function: var(--anima-function);
-}
 
-.button:hover,
-.button:focus,
-.button:active {
-  background-color: #188ce8;
-  border: none;
-  cursor: pointer;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #188ce8;
+    border: none;
+    cursor: pointer;
+  }
 }

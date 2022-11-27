@@ -2,7 +2,6 @@
 @import './utils/variables';
 @import './utils/utils';
 @import './utils/vis-hidden';
-@import './utils/current-link';
 @import './utils/button';
         // BASE
 @import './base/reset';
@@ -12,6 +11,7 @@
 @import './components/header';
 @import './components/logo';
 @import './components/navigation';
+@import './utils/current-link';
 @import './components/contacts';
 @import './components/hero';
 @import './components/advences';
