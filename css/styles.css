@@ -967,7 +967,7 @@ button {
   overflow: hidden;
 }
 
-.examples-discription {
+.examples__overflow {
   position: absolute;
   left: 0;
   bottom: -100%;
@@ -996,25 +996,25 @@ button {
   transition-timing-function: var(--anima-function);
 }
 
-.examples__item:hover .examples-discription {
+.examples__item:hover .examples__overflow {
   transform: translateY(-100%);
   opacity: 1;
 }
 
-.item-container {
+.examples__data {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
-.exp.subtitle {
+.examples__title {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
 
-.exp-p {
+.examples__text {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
