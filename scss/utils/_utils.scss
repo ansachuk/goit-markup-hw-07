@@ -3,20 +3,6 @@
   color: var(--font-submain-color);
 }
 
-.invisible {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-
-  margin: -5px;
-  border: 0;
-  padding: 0;
-
-  clip: rect(0 0 0 0);
-}
-
 .section {
   padding-bottom: 94px;
   padding-top: 94px;

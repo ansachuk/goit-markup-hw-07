@@ -1,0 +1,29 @@
+.address__logo {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.address__item {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link.link {
+  color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: var(--anima-duration);
+  transition-timing-function: var(--anima-function);
+}
+
+.address__link.link:active,
+.address__link.link:hover,
+.address__link.link:focus {
+  color: var(--action-color);
+}

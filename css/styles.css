@@ -100,7 +100,7 @@ body {
 } */
 
 /* -----------------------Хедер------------------------ */
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -108,9 +108,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
   color: #000000;
   font-family: 'Raleway';
   font-weight: 700;
@@ -119,11 +119,11 @@ body {
   letter-spacing: 0.03em;
 
   margin-right: 93px;
-}
+} */
 
 /* ___________________nav__________________ */
 
-.nav {
+/* .nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -154,9 +154,9 @@ body {
 
 .logo__name--blue-web {
   color: var(--action-color);
-}
+} */
 
-.link--current {
+/* .link--current {
   color: var(--action-color);
   position: relative;
 }
@@ -172,11 +172,11 @@ body {
 
   background: var(--action-color);
   border-radius: 2px;
-}
+} */
 
 /* ____________contacts____________ */
 
-.contacts {
+/* .contacts {
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -214,12 +214,12 @@ body {
 .contacts__icon:hover,
 .contacts__icon:focus {
   fill: var(--action-color);
-}
+} */
 
 /* -----------------------------main----------------------------- */
 
 /* -------------- Hero --------------*/
-.hero {
+/* .hero {
   padding: 200px 0;
 
   max-width: 1600px;
@@ -246,9 +246,9 @@ body {
   text-transform: uppercase;
 
   width: 696px;
-}
+} */
 
-.button {
+/* .button {
   min-width: 216px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -280,11 +280,11 @@ body {
   background-color: #188ce8;
   border: none;
   cursor: pointer;
-}
+} */
 
 /* -------------- advences ------------- */
 
-.advences.section {
+/* .advences.section {
   padding-bottom: 0;
 }
 
@@ -317,11 +317,11 @@ body {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   width: 270px;
-}
+} */
 
 /* ----------- WORKING --------- */
 
-.working__title,
+/* .working__title,
 .our-team__title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -360,11 +360,11 @@ body {
   width: 100%;
   min-height: 70px;
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* ---------------- our team -------------- */
 
-.our-team {
+/* .our-team {
   background-color: var(--button-passive-color);
 }
 
@@ -402,9 +402,9 @@ body {
   letter-spacing: 0.03em;
 
   margin-bottom: 16px;
-}
+} */
 
-.social {
+/* .social {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -441,11 +441,11 @@ body {
 .social__link:hover .social__icon,
 .social__link:focus .social__icon {
   fill: var(--header-color);
-}
+} */
 
 /* --------------------CLIENTS---------------- */
 
-.clients__title {
+/* .clients__title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -493,11 +493,11 @@ body {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
   fill: var(--action-color);
-}
+} */
 
 /* ________________Футер______________ */
 
-.footer {
+/* .footer {
   background-color: var(--footer-color);
   padding: 60px 0;
 }
@@ -510,9 +510,9 @@ body {
 
 .footer a {
   color: var(--header-color);
-}
+} */
 
-.address__logo {
+/* .address__logo {
   display: inline-block;
   margin-right: 0;
   margin-bottom: 20px;
@@ -540,11 +540,11 @@ body {
 .address__link.link:hover,
 .address__link.link:focus {
   color: var(--action-color);
-}
+} */
 
 /* ------------------ FOOTER-CONECT -------------- */
 
-.footer__title {
+/* .footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -586,7 +586,7 @@ body {
 
 /* ---------------- FOOTER FORM ------------- */
 
-.footer-form__disc {
+/* .footer-form__disc {
   display: block;
 
   margin-bottom: 20px;
@@ -660,11 +660,11 @@ body {
 
 .footer-form__icon {
   fill: var(--header-color);
-}
+} */
 
 /* ------------------------ BACKDROP ---------------- */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -679,9 +679,9 @@ body {
   transition-property: visibility, opacity;
   transition-duration: var(--anima-duration);
   transition-timing-function: var(--anima-function);
-}
+} */
 
-.modal {
+/* .modal {
   position: relative;
 
   width: 528px;
@@ -816,9 +816,9 @@ textarea.modal__input {
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
-}
+} */
 
-.accept {
+/* .accept {
   position: relative;
   display: flex;
   justify-content: center;
@@ -860,9 +860,9 @@ textarea.modal__input {
 .accept__link{
   color: var(--action-color);
   text-decoration: underline;
-}
+} */
 
-.submit__btn {
+/* .submit__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -880,36 +880,32 @@ textarea.modal__input {
   border-radius: 4px;
 
   transition: background-color var(--anima-duration) var(--anima-function);
-}
+} */
 
-.modal-form-btn:hover,
+/* .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #188ce8;
   border: none;
   cursor: pointer;
-}
+} */
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 /*------------------ portfolio ---------------*/
 
-.main.main-portfolio {
-  background-color: F5F5F5;
-}
+/* .main.main-portfolio {
+  background-color: #F5F5F5;
+} */
 
-.filter.list {
+/* .filter.list {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
-}
-
-button {
-  font-family: inherit;
 }
 
 .filter__button {
@@ -937,9 +933,9 @@ button {
   background-color: var(--action-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.examples.list {
+/* .examples.list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -1015,7 +1011,7 @@ button {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
-}
+} */
 
 /* ----------- ANIMATIONS --------------- */
 
@@ -1024,7 +1020,7 @@ button {
  * animation scale-up-center
  * ----------------------------------------
  */
-@keyframes scale-up-center {
+/* @keyframes scale-up-center {
   0% {
     transform: scale(0.5);
     transform-origin: 50% 0%;
@@ -1034,4 +1030,4 @@ button {
     transform: scale(1);
     transform-origin: 50% 0%;
   }
-}
+} */
