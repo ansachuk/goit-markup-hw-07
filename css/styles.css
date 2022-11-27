@@ -1,4 +1,4 @@
-/* Variables */
+/* Variables
 :root {
   --main-color: #f5f5f5;
   --header-color: #ffffff;
@@ -8,16 +8,16 @@
   --font-submain-color: #212121;
   --button-passive-color: #f5f4fa;
 
-  /* Others */
+
   --anima-duration: 250ms;
   --anima-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   --indent: 30px;
   --items: 3;
-}
+} */
 
-/* Reset start */
-h1,
+
+/* h1,
 h2,
 h3,
 h4,
@@ -47,12 +47,10 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* Reset end */
+} */
 
 /*________________________ Глобальні стилі __________________*/
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -67,18 +65,17 @@ body {
   color: var(--font-main-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
 }
-
 /* __________________Утиліти_________________ */
 
-.title,
+/* .title,
 .subtitle {
   color: var(--font-submain-color);
 }
@@ -100,7 +97,7 @@ body {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
-}
+} */
 
 /* -----------------------Хедер------------------------ */
 .header {
