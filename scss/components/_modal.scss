@@ -31,11 +31,11 @@
   fill: #000;
 
   transition: fill var(--anima-duration) var(--anima-function);
-}
 
-.modal__button:hover .modal__icon,
-.modal__button:focus .modal__icon {
-  fill: var(--action-color);
+  .modal__button:hover &,
+  .modal__button:focus & {
+    fill: var(--action-color);
+  }
 }
 
 .modal.modal-animation {
@@ -70,10 +70,10 @@
 
 .modal__wrapper--inside {
   margin-bottom: 20px;
-}
 
-.modal__wrapper--inside:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .modal__text {
@@ -91,8 +91,6 @@
   position: relative;
 }
 
-
-
 .modal__input {
   height: 40px;
   width: 100%;
@@ -103,12 +101,12 @@
   transition: border var(--anima-duration) var(--anima-function),
     outline var(--anima-duration) var(--anima-function),
     fill var(--anima-duration) var(--anima-function);
-}
 
-.modal__input:focus {
-  border: 1px solid transparent;
-  outline: 1px solid var(--action-color);
-  border-radius: 4px;
+  &:focus {
+    border: 1px solid transparent;
+    outline: 1px solid var(--action-color);
+    border-radius: 4px;
+  }
 }
 
 .field__icon {
@@ -117,10 +115,10 @@
   left: 12px;
 
   fill: #000;
-}
 
-.modal__input:focus+.field__icon {
-  fill: var(--action-color);
+  .modal__input:focus + & {
+    fill: var(--action-color);
+  }
 }
 
 textarea.modal__input {
@@ -133,11 +131,4 @@ textarea.modal__input {
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
-}
-
-.modal-form-btn:hover,
-.modal-form-btn:focus {
-  background-color: #188ce8;
-  border: none;
-  cursor: pointer;
 }

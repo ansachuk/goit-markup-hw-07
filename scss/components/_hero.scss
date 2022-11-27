@@ -11,9 +11,8 @@
     url(../images/homepage/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.hero__title {
+  &__title {
   margin: 0 auto 30px auto;
   padding: 0;
   color: var(--header-color);
@@ -25,4 +24,5 @@
   text-transform: uppercase;
 
   width: 696px;
+}
 }

@@ -20,10 +20,9 @@
   transition-property: color;
   transition-duration: var(--anima-duration);
   transition-timing-function: var(--anima-function);
-}
 
-.nav__link:hover,
-.nav__link:focus {
-  color: var(--action-color);
+  &:hover,
+  &:focus {
+    color: var(--action-color);
+  }
 }
-

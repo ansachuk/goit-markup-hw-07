@@ -17,11 +17,11 @@
   transition-property: color;
   transition-duration: var(--anima-duration);
   transition-timing-function: var(--anima-function);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--action-color);
+  &:hover,
+  &:focus {
+    color: var(--action-color);
+  }
 }
 
 .contacts__icon {
@@ -31,9 +31,9 @@
   transition-property: fill;
   transition-duration: var(--anima-duration);
   transition-timing-function: var(--anima-function);
-}
 
-.contacts__icon:hover,
-.contacts__icon:focus {
-  fill: var(--action-color);
+  &:hover,
+  &:focus {
+    fill: var(--action-color);
+  }
 }
